@@ -51,7 +51,8 @@ function Question() {
         />
       </div>
       <div className="buttons">
-        <button className="btn" id="yesButton" onClick={nextPage}>
+{/*           onClick={nextPage} */}
+        <button className="btn" id="yesButton" >
           Yes
         </button>
         <button
